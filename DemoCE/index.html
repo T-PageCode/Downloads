@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>下载Demo CE</title>
     <link rel="stylesheet" href="./index.css">
-    <script defer src="../index.js"></script>
+    <script defer src="./index.js"></script>
 </head>
 <body>
     <h1 id="title-text">下载Demo CE</h1>
@@ -25,5 +25,12 @@
         <button class="download-button" onclick="window.open('https://github.com/T-PageCode/DemoCE/releases/download/v1.0.0/Demo.CE-v1.0.0-x64.exe','_blank')">从GitHub下载</button>
     </div>
     <button onclick="window.location.href='../index.html'" id="btn1">返回主页</button>
+    <div id="menu">
+        <div class="menu-item" onclick="copyLink('https://github.com/T-PageCode/DemoCE/releases/download/v1.0.3/DemoCE-Setup-1.0.3.exe')">复制v1.0.3下载链接</div>
+        <div class="menu-item" onclick="copyLink('https://github.com/T-PageCode/DemoCE/releases/download/v1.0.2/DemoCE-Setup-1.0.2.exe')">复制v1.0.2下载链接</div>
+        <div class="menu-item" onclick="copyLink('https://github.com/T-PageCode/DemoCE/releases/download/v1.0.1/Demo.CE-v1.0.1-x64Setup.exe')">复制v1.0.1下载链接</div>
+        <div class="menu-item" onclick="copyLink('https://github.com/T-PageCode/DemoCE/releases/download/v1.0.0/Demo.CE-v1.0.0-x64.exe')">复制v1.0.0下载链接</div>
+    </div>
+    <div id="info">链接已复制</div>
 </body>
 </html>

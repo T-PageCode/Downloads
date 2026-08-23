@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(255,255,255);
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+*{
+    font-weight: 200;
+    margin: 0;
+}
+#title-text{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    white-space: nowrap;
+}
+#v103{
+    top: 330px;
+    left: calc(50% - 190px);
+}
+#v102{
+    top: 330px;
+    left: calc(50% + 190px);
+}
+#v101{
+    top: 530px;
+    left: calc(50% - 190px);
+}
+#v100{
+    top: 530px;
+    left: calc(50% + 190px);
+}
+.download{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    filter: drop-shadow(0 0 10px rgb(0,0,0,0.3));
+    border-radius: 25px;
+    transition: transform 0.5s ease,
+    filter 0.5s ease;
+}
+.download:hover{
+    filter: drop-shadow(0 0 20px rgb(0,0,0,0.3));
+    transform: translate(-50%,-70%);
+}
+.download-title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+.download-button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(0,50,255);
+    color: white;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+}
+.download-button:hover{
+    background-color: rgb(0,0,225);
+}
+.download-button:active{
+    background-color: rgb(0,0,190);
+}
+@media screen and (max-width: 700px) {
+    #title-text{
+        top: 100px;
+    }
+    #v100,#v101,#v102,#v103{
+        left: 50%;
+    }
+    #v103{
+        top: 250px;
+    }
+    #v102{
+        top: 420px;
+    }
+    #v101{
+        top: 590px;
+    }
+    #v100{
+        top: 760px;
+    }
+    .download:hover{
+        transform: translate(-50%,-60%);
+    }
+}

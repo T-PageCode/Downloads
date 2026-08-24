@@ -1,5 +1,6 @@
 const menu = document.getElementById("menu");
 const info = document.getElementById("info");
+let menuTime = null;
 function copyLink(link) {
     navigator.clipboard.writeText(link);
     info.style.visibility = "visible";
@@ -17,6 +18,7 @@ function copyLink(link) {
     },2000)
 }
 document.addEventListener("contextmenu",(e) => {
+    clearTimeout(menuTime)
     e.preventDefault();
     let x = e.clientX;
     let y = e.clientY;
@@ -32,7 +34,7 @@ document.addEventListener("click",(e) => {
     }
     menu.style.opacity = "0";
     menu.style.transform = "translate(-50%,-50%) scale(0.8)";
-    setTimeout(() => {
+    menuTime = setTimeout(() => {
         menu.style.visibility = "hidden";
     },500)
 })

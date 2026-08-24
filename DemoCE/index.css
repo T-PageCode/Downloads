@@ -132,7 +132,9 @@ body{
     visibility: hidden;
     transition: transform 0.5s ease,
     opacity 0.5s ease,
-    transform 0.5s ease;
+    transform 0.5s ease,
+    top 0.5s ease,
+    left 0.5s ease;
 }
 .menu-item{
     width: 90%;

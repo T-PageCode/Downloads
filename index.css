@@ -72,11 +72,11 @@ body{
 }
 #democe{
     top: 400px;
-    left: 25%;
+    left: calc(50% - 250px);
 }
 #ghvswebtpc-desktop{
     top: 400px;
-    left: 75%;
+    left: calc(50% + 250px);
 }
 #ghvswebtpc-desktop-download-btn{
     width: 230px;
@@ -88,7 +88,13 @@ body{
     #democe{
         left: 50%;
         top: 280px;
-        width: 80%;
+        width: 450px;
+        white-space: nowrap;
+    }
+    #ghvswebtpc-desktop{
+        left: 50%;
+        top: 500px;
+        width: 450px;
         white-space: nowrap;
     }
 }

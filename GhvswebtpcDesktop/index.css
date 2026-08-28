@@ -110,29 +110,35 @@ body{
     #title-text{
         top: 50px;
     }
-    #v100,#v101,#v102,#v103,#v104,#v105{
+    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107{
         left: 50%;
     }
-    #v105{
+    #v107{
         top: 190px;
     }
-    #v104{
+    #v106{
         top: 370px;
     }
-    #v103{
+    #v105{
         top: 550px;
     }
-    #v102{
+    #v104{
         top: 730px;
     }
-    #v101{
+    #v103{
         top: 910px;
+    }
+    #v102{
+        top: 1110px;
+    }
+    #v101{
+        top: 1310px;
     }
     .download:hover{
         transform: translate(-50%,-60%);
     }
     #btn1{
-        top: 1025px;
+        top: 1425px;
         left: 50%;
     }
 }

@@ -78,6 +78,10 @@ body{
     top: 400px;
     left: calc(50% + 250px);
 }
+#idligh2fa{
+    top: 620px;
+    left: calc(50% - 250px);
+}
 #ghvswebtpc-desktop-download-btn{
     width: 230px;
 }
@@ -96,5 +100,10 @@ body{
         top: 500px;
         width: 450px;
         white-space: nowrap;
+    }
+    #idligh2fa{
+        left: 50%;
+        top: 720px;
+        width: 450px;
     }
 }

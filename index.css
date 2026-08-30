@@ -48,7 +48,7 @@ body{
 }
 .download:hover{
     filter: drop-shadow(0 0px 25px rgb(0,0,0,0.3));
-    transform: translate(-50%,-60%);
+    transform: translate(-50%,-70%);
 }
 .download-btn{
     position: absolute;

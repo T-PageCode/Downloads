@@ -16,41 +16,45 @@ body{
     font-size: 40px;
     white-space: nowrap;
 }
-#v109{
+#v110{
     top: 330px;
     left: calc(50% - 190px);
 }
-#v108{
+#v109{
     top: 330px;
     left: calc(50% + 190px);
+}
+#v108{
+    top: 530px;
+    left: calc(50% - 190px);
 }
 #v107{
     top: 530px;
-    left: calc(50% - 190px);
+    left: calc(50% + 190px);
 }
 #v106{
-    top: 530px;
-    left: calc(50% + 190px);
+    top: 730px;
+    left: calc(50% - 190px);
 }
 #v105{
     top: 730px;
-    left: calc(50% - 190px);
+    left: calc(50% + 190px);
 }
 #v104{
-    top: 730px;
-    left: calc(50% + 190px);
+    top: 930px;
+    left: calc(50% - 190px);
 }
 #v103{
     top: 930px;
-    left: calc(50% - 190px);
+    left: calc(50% + 190px);
 }
 #v102{
-    top: 930px;
-    left: calc(50% + 190px);
+    top: 1130px;
+    left: calc(50% - 190px);
 }
 #v101{
     top: 1130px;
-    left: calc(50% - 190px);
+    left: calc(50% + 190px);
 }
 .download{
     position: absolute;
@@ -96,8 +100,8 @@ body{
 }
 #btn1{
     position: absolute;
-    top: 1130px;
-    left: calc(50% + 190px);
+    top: 1250px;
+    left: 50%;
     transform: translate(-50%,-50%);
     width: 180px;
     height: 40px;
@@ -117,42 +121,46 @@ body{
 @media screen and (max-width: 700px) {
     #title-text{
         top: 50px;
+        font-size: 30px;
     }
-    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109{
+    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109,#v110{
         left: 50%;
     }
-    #v109{
+    #v110{
         top: 190px;
     }
-    #v108{
+    #v109{
         top: 370px;
     }
-    #v107{
+    #v108{
         top: 550px;
     }
-    #v106{
+    #v107{
         top: 730px;
     }
-    #v105{
+    #v106{
         top: 910px;
     }
-    #v104{
+    #v105{
         top: 1110px;
     }
-    #v103{
+    #v104{
         top: 1310px;
     }
-    #v102{
+    #v103{
         top: 1510px;
     }
-    #v101{
+    #v102{
         top: 1710px;
+    }
+    #v101{
+        top: 1910px;
     }
     .download:hover{
         transform: translate(-50%,-60%);
     }
     #btn1{
-        top: 1825px;
+        top: 2025px;
         left: 50%;
     }
 }
@@ -160,7 +168,7 @@ body{
     position: fixed;
     transform: translate(-50%,-50%) scale(0.8);
     width: 180px;
-    height: 420px;
+    height: 470px;
     background-color: white;
     filter: drop-shadow(0 0 10px rgb(0,0,0,0.3));
     border-radius: 20px;

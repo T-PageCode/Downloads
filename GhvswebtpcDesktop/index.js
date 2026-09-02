@@ -29,6 +29,7 @@ document.addEventListener("contextmenu",(e) => {
     menu.style.transform = "translate(-50%,-50%) scale(1)";
 })
 document.addEventListener("click",(e) => {
+    clearTimeout(menuTime)
     if (e.target.closest("#menu")) {
         return;
     }

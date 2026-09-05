@@ -42,6 +42,7 @@ body{
     border-radius: 25px;
     transition: transform 0.5s ease,
     filter 0.5s ease;
+    color: white;
 }
 .download:hover{
     transform: translate(-50%,-70%);

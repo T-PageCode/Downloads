@@ -52,6 +52,7 @@ body{
     filter: drop-shadow(0 0px 15px rgb(0,0,0,0.3));
     transition: filter 0.5s ease,
     transform 0.5s ease;
+    color: white;
 }
 .download:hover{
     filter: drop-shadow(0 0px 25px rgb(0,0,0,0.3));

@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(255,255,255);
+    background-image: url(../bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
@@ -8,67 +11,75 @@ body{
     font-weight: 200;
     margin: 0;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 #title-text{
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 40px;
     white-space: nowrap;
+    color: white;
+}
+#v111{
+    top: 250px;
+    left: calc(50% - 190px);
 }
 #v110{
-    top: 330px;
-    left: calc(50% - 190px);
+    top: 250px;
+    left: calc(50% + 190px);
 }
 #v109{
-    top: 330px;
-    left: calc(50% + 190px);
+    top: 450px;
+    left: calc(50% - 190px);
 }
 #v108{
-    top: 530px;
-    left: calc(50% - 190px);
+    top: 450px;
+    left: calc(50% + 190px);
 }
 #v107{
-    top: 530px;
-    left: calc(50% + 190px);
+    top: 650px;
+    left: calc(50% - 190px);
 }
 #v106{
-    top: 730px;
-    left: calc(50% - 190px);
+    top: 650px;
+    left: calc(50% + 190px);
 }
 #v105{
-    top: 730px;
-    left: calc(50% + 190px);
+    top: 850px;
+    left: calc(50% - 190px);
 }
 #v104{
-    top: 930px;
-    left: calc(50% - 190px);
+    top: 850px;
+    left: calc(50% + 190px);
 }
 #v103{
-    top: 930px;
-    left: calc(50% + 190px);
-}
-#v102{
-    top: 1130px;
+    top: 1030px;
     left: calc(50% - 190px);
 }
-#v101{
-    top: 1130px;
+#v102{
+    top: 1030px;
     left: calc(50% + 190px);
+}
+#v101{
+    top: 1230px;
+    left: calc(50% - 190px);
 }
 .download{
     position: absolute;
     transform: translate(-50%,-50%);
     width: 350px;
     height: 150px;
-    background-color: white;
-    filter: drop-shadow(0 0 10px rgb(0,0,0,0.3));
+    background-color: rgb(255,255,255,0.5);
+    backdrop-filter: blur(5px);
     border-radius: 25px;
     transition: transform 0.5s ease,
     filter 0.5s ease;
 }
 .download:hover{
-    filter: drop-shadow(0 0 20px rgb(0,0,0,0.3));
     transform: translate(-50%,-70%);
 }
 .download-title{
@@ -100,8 +111,8 @@ body{
 }
 #btn1{
     position: absolute;
-    top: 1250px;
-    left: 50%;
+    top: 1230px;
+    left: calc(50% + 190px);
     transform: translate(-50%,-50%);
     width: 180px;
     height: 40px;
@@ -123,44 +134,47 @@ body{
         top: 50px;
         font-size: 30px;
     }
-    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109,#v110{
+    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109,#v110,#v111{
         left: 50%;
     }
-    #v110{
+    #v111{
         top: 190px;
     }
-    #v109{
+    #v110{
         top: 370px;
     }
-    #v108{
+    #v109{
         top: 550px;
     }
-    #v107{
+    #v108{
         top: 730px;
     }
-    #v106{
+    #v107{
         top: 910px;
     }
-    #v105{
+    #v106{
         top: 1110px;
     }
-    #v104{
+    #v105{
         top: 1310px;
     }
-    #v103{
+    #v104{
         top: 1510px;
     }
-    #v102{
+    #v103{
         top: 1710px;
     }
-    #v101{
+    #v102{
         top: 1910px;
+    }
+    #v101{
+        top: 2110px;
     }
     .download:hover{
         transform: translate(-50%,-60%);
     }
     #btn1{
-        top: 2025px;
+        top: 2225px;
         left: 50%;
     }
 }
@@ -168,9 +182,9 @@ body{
     position: fixed;
     transform: translate(-50%,-50%) scale(0.8);
     width: 180px;
-    height: 470px;
-    background-color: white;
-    filter: drop-shadow(0 0 10px rgb(0,0,0,0.3));
+    height: 513px;
+    background-color: rgb(255,255,255,0.5);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     opacity: 0;
     visibility: hidden;
@@ -200,8 +214,8 @@ body{
     transform: translate(-50%,-50%);
     width: 210px;
     height: 50px;
-    background-color: white;
-    filter: drop-shadow(0 0 10px rgb(0,0,0,0.3));
+    background-color: rgb(230,230,230,0.6);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     opacity: 0;
     visibility: hidden;

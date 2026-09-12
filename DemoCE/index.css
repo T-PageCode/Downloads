@@ -24,21 +24,25 @@ body{
     white-space: nowrap;
     color: white;
 }
-#v103{
+#v104{
     top: 330px;
     left: calc(50% - 190px);
 }
-#v102{
+#v103{
     top: 330px;
     left: calc(50% + 190px);
+}
+#v102{
+    top: 530px;
+    left: calc(50% - 190px);
 }
 #v101{
     top: 530px;
-    left: calc(50% - 190px);
+    left: calc(50% + 190px);
 }
 #v100{
-    top: 530px;
-    left: calc(50% + 190px);
+    top: 730px;
+    left: calc(50% - 190px);
 }
 .download{
     position: absolute;
@@ -84,8 +88,8 @@ body{
 }
 #btn1{
     position: absolute;
-    top: 670px;
-    left: 50%;
+    top: 730px;
+    left: calc(50% + 190px);
     transform: translate(-50%,-50%);
     width: 180px;
     height: 40px;
@@ -132,7 +136,7 @@ body{
     position: fixed;
     transform: translate(-50%,-50%) scale(0.8);
     width: 180px;
-    height: 190px;
+    height: 240px;
     background-color: rgb(255,255,255,0.5);
     backdrop-filter: blur(5px);
     border-radius: 20px;

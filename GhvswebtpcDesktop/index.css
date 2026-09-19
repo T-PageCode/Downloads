@@ -24,64 +24,72 @@ body{
     white-space: nowrap;
     color: white;
 }
-#v115{
+#v117{
     top: 250px;
+    left: calc(50% - 190px);
+}
+#v116{
+    top: 250px;
+    left: calc(50% + 190px);
+}
+#v115{
+    top: 450px;
     left: calc(50% - 190px);
 }
 #v114{
-    top: 250px;
+    top: 450px;
     left: calc(50% + 190px);
 }
 #v113{
-    top: 450px;
+    top: 650px;
     left: calc(50% - 190px);
 }
 #v112{
-    top: 450px;
+    top: 650px;
     left: calc(50% + 190px);
 }
 #v111{
-    top: 650px;
+    top: 850px;
     left: calc(50% - 190px);
 }
 #v110{
-    top: 650px;
+    top: 850px;
     left: calc(50% + 190px);
 }
 #v109{
-    top: 850px;
+    top: 1050px;
     left: calc(50% - 190px);
 }
 #v108{
-    top: 850px;
+    top: 1050px;
     left: calc(50% + 190px);
 }
 #v107{
-    top: 1050px;
+    top: 1250px;
     left: calc(50% - 190px);
 }
 #v106{
-    top: 1050px;
+    top: 1250px;
     left: calc(50% + 190px);
 }
 #v105{
-    top: 1250px;
+    top: 1450px;
     left: calc(50% - 190px);
 }
 #v104{
-    top: 1250px;
+    top: 1450px;
     left: calc(50% + 190px);
 }
 #v103{
-    top: 1450px;
+    top: 1650px;
     left: calc(50% - 190px);
 }
 #v102{
-    top: 1450px;
+    top: 1650px;
     left: calc(50% + 190px);
 }
 #v101{
-    top: 1650px;
+    top: 1850px;
     left: calc(50% - 190px);
 }
 .download{
@@ -128,7 +136,7 @@ body{
 }
 #btn1{
     position: absolute;
-    top: 1650px;
+    top: 1850px;
     left: calc(50% + 190px);
     transform: translate(-50%,-50%);
     width: 180px;
@@ -151,56 +159,65 @@ body{
         top: 50px;
         font-size: 30px;
     }
-    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109,#v110,#v111,#v112,#v113,#v114{
+    #v100,#v101,#v102,#v103,#v104,#v105,#v106,#v107,#v108,#v109,#v110,#v111,#v112,#v113,#v114,#v115,#v116,#v117{
         left: 50%;
     }
-    #v114{
+    #v117{
         top: 190px;
     }
-    #v113{
+    #v116{
         top: 370px;
     }
-    #v112{
+    #v115{
         top: 550px;
     }
-    #v111{
+    #v114{
         top: 730px;
     }
-    #v110{
+    #v113{
         top: 910px;
     }
-    #v109{
+    #v112{
         top: 1110px;
     }
-    #v108{
+    #v111{
         top: 1310px;
     }
-    #v107{
+    #v110{
         top: 1510px;
     }
-    #v106{
+    #v109{
         top: 1710px;
     }
-    #v105{
+    #v108{
         top: 1910px;
     }
-    #v104{
+    #v107{
         top: 2110px;
     }
-    #v103{
+    #v106{
         top: 2310px;
     }
-    #v102{
+    #v105{
         top: 2510px;
     }
-    #v101{
+    #v104{
         top: 2710px;
+    }
+    #v103{
+        top: 2910px;
+    }
+    #v102{
+        top: 3110px;
+    }
+    #v101{
+        top: 3310px;
     }
     .download:hover{
         transform: translate(-50%,-60%);
     }
     #btn1{
-        top: 2825px;
+        top: 3425px;
         left: 50%;
     }
 }
@@ -208,7 +225,7 @@ body{
     position: fixed;
     transform: translate(-50%,-50%) scale(0.8);
     width: 180px;
-    height: 695px;
+    height: 790px;
     background-color: rgb(255,255,255,0.5);
     backdrop-filter: blur(5px);
     border-radius: 20px;
